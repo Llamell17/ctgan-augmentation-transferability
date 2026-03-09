@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+0_Data/*.xlsx
+0_Data/*.xls
+
+# Temporary notebooks
+*Copy*.ipynb
+old.ipynb
+Untitled.ipynb
+Project-proposal.ipynb
+
+# Ignore bulk CTGAN tuning outputs
+2_CGTAN/ctgan_tuning/c0/n250_*/
+2_CGTAN/ctgan_tuning/c1/n250_*/
+2_CGTAN/ctgan_tuning/c0/best_model/
+2_CGTAN/ctgan_tuning/c1/best_model/
+
+# Ignore intermediate model outputs
+3_Models/3_Sample/exp1/
+3_Models/3_Sample/exp2/
+
+# OS
+.DS_Store
+Thumbs.db
