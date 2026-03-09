@@ -15,6 +15,9 @@ old.ipynb
 Untitled.ipynb
 Project-proposal.ipynb
 
+# clustering outputs derived from input data
+1_Clustering/*.csv
+
 # Ignore bulk CTGAN tuning outputs
 2_CGTAN/ctgan_tuning/c0/n250_*/
 2_CGTAN/ctgan_tuning/c1/n250_*/
